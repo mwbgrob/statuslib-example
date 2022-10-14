@@ -17,7 +17,10 @@
         "forum": "https://discourse.laminas.dev"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "extra": {
         "laminas": {
@@ -33,7 +36,7 @@
         "laminas/laminas-paginator": "^2.10",
         "laminas/laminas-stdlib": "^2.7.7 || ^3.0.1",
         "laminas/laminas-zendframework-bridge": "^1.0",
-        "ramsey/uuid": "^2.8"
+        "ramsey/uuid": "^4.5"
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.3.0"
